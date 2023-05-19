@@ -1,0 +1,124 @@
+.rc{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.rs{
+    margin: 10px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+  
+
+a:visited {
+    color: black;
+}
+  
+
+a:hover {
+    color: black;
+}
+  
+
+a:active {
+    color: black;
+}
+
+
+.cen-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rou-in{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: white;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: calc(632px + 6px);
+    width: 584px;
+    max-width: 584px;
+    margin-top: 40px;
+}
+
+.btn-search{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.ad-p1{
+    margin: 25px 35px;
+    font-size: 20px;
+    color: #d93025;
+}
+
+.line{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.ad-p2{
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.ad-main{
+    margin: 40px;
+}
+
+.ad-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:20px ;
+}
+
+.left{
+    width: 200px;
+}
+
+.right{
+    width: 380px;
+}
+
+.ad-p{
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.btn-sub{
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff    
+}
+
+.ad-btn{
+    display: flex;
+    justify-content: flex-end;
+    width: 580px;
+    margin-top: 30px;
+}
+
